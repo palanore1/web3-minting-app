@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { ContractFactory, ethers } from 'ethers';
 import CoolPunks from '../artifacts/contracts/CoolPunks.sol/CoolPunks.json';
 
-const contractAddress = '0xf871039A8628cE7f42A0149c0B02abCF7eDEc8D0';
+const contractAddress = '0xB3DdF47431C8683f6F5B869eF91BF03308DA848a';
 
 const provider = new ethers.providers.Web3Provider(window.ethereum);
 
